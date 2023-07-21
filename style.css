@@ -1,0 +1,41 @@
+:root {
+    color: #fc7300;
+    color: #1f8a70;
+    color: #00425a;
+    color: #181823;
+    color: #eff5f5;
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.navbar-light {
+    background-color: #fc7300;
+}
+
+.nav-link:hover {
+    background-color: #1f8a70;
+
+}
+
+.logoheader {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.nombre{
+    background-color: #1f8a70;
+    text-align: center;
+}
+.carousel-inner{
+    margin-top: -10px;
+}
+.card {
+    justify-content: center;
+}
+.imgmain{
+    width: 350px;
+    height: 350px;
+}
