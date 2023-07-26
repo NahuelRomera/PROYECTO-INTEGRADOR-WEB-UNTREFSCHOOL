@@ -1,122 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>UntrefSchool</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <title>UntrefSchool</title>
 </head>
 
 <body>
   <header>
-    <!-- place navbar here -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logoheader" src="img/untref.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#somos">Quienes somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#elegirnos">¿Por qué elegirnos?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#propuesta">Propuesta educativa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ultimas noticias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contactanos</a>
-            </li>
-        </div>
-      </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="#quienes">Quienes somos</a></li>
+        <li><a href="#porque">¿Por qué elegirnos?</a></li>
+        <li><a href="#propuesta">Propuesta educativa</a></li>
+        <li><a href="#noticias">Últimas noticias</a></li>
+        <li><a class="active" href="#">Contactanos</a></li>
+      </ul>
     </nav>
   </header>
-  <div class="nombre">
+  <section>
     <h1>UntrefSchool</h1>
-  </div>
-  <div class="banner">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/niños_felices.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-
-      <main>
-        <div class="container-fluid">
-          <div class="card mb-12" style="max-width: 740px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="img/quienes_somos.jpg" class="img-fluid rounded-start" alt="somos">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 id="somos" class="card-title">Quienes somos </h5>
-                  <p class="card-text">Somos una comunidad apasionada por el aprendizaje y el crecimiento integral de
-                    nuestros alumnos. <br> Desde nuestra fundación en 1985, hemos sido un referente en la educación
-                    primaria, brindando una experiencia educativa excepcional y forjando cimientos sólidos para el futuro
-                    de nuestros estudiantesp>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-          <div class="card mb-3" style="max-width: 740px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="img/elegirnos.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 id="elegirnos" class="card-title">¿Por qué elegirnos?</h5>
-                  <p class="card-text">Nuestro equipo docente altamente calificado se dedica a cultivar una educación de
-                    excelencia,
-                    utilizando metodologías innovadoras y recursos pedagógicos actualizados. A través de un enfoque
-                    personalizado, nos esforzamos por conocer las necesidades y habilidades únicas de cada estudiante,
-                    adaptando nuestro plan de estudios para satisfacer sus necesidades individuales.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-8">
-                <h2 id="propuesta">Propuesta educativa</h2>
-                <p>Nuestra misión es formar ciudadanos responsables, creativos y comprometidos con la sociedad,
-                  preparándolos para enfrentar los desafíos del mundo en constante cambio. Siendo una escuela inclusiva,
-                  promovemos la diversidad y la igualdad, donde cada estudiante encuentra un espacio para crecer y
-                  aprender sin barreras.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </main>
-      <footer>
-        <!-- place footer here -->
-
-      </footer>
-      <!-- Bootstrap JavaScript Libraries -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+  </section>
+  <main>
+    <article #quienes></article>
+    <article #porque></article>
+    <article #propuesta></article>
+    <article #noticias></article>
+  </main>
+  <footer>
+    <section></section>
+    <section></section>
+    <section></section>
+  </footer>
 </body>
 
 </html>
