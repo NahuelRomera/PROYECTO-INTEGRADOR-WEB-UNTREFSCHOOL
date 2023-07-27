@@ -37,3 +37,18 @@
 .active {
     background-color: #fc7300;
 }
+
+body{
+    background-image:url(img/niños_felices.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div h1{
+    font-family: Poppins sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    
+}
