@@ -16,6 +16,8 @@
     font-family: Belanosima, sans-serif;
 }
 
+
+
 #menu {
     background: #1f8a70;
 }
@@ -38,17 +40,26 @@
     background-color: #fc7300;
 }
 
-body{
-    background-image:url(img/niños_felices.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 div h1{
     font-family: Poppins sans-serif;
-    padding: 20px;
+    padding: 60px;
     text-align: center;
     font-size: 60px;
     
 }
+.banner{
+    background-image:url(img/niños_felices.jpg);
+    height: 624px;
+    width: 100%;
+    background-size:cover;
+}
+
+/*.banner{
+    background-image:url(img/niños_felices.jpg);
+    height: auto;
+    width: 100%;
+    background-size:cover;
+    justify-content:space-between;
+    display: flex;
+}*/
