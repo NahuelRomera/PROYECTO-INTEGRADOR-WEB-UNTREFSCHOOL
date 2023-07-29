@@ -17,43 +17,74 @@
 }
 
 
-
 #menu {
     background: #1f8a70;
+    text-align: center;
+
 }
 
-#menu ul li {
-    display: inline-block;
-}
 
 #menu ul li a {
     color: #eff5f5;
-    display: block;
-    padding: 10px 10px;
+    display: list-item;
+    padding: 10px 0px;
 }
 
 #menu ul li a:hover {
     background-color: #fc7300;
+    border-radius: 30%;
 }
 
 .active {
     background-color: #fc7300;
+    border-radius: 30%;
 }
 
 
-div h1{
+div h1 {
     font-family: Poppins sans-serif;
-    padding: 60px;
+    padding-top: 50px;
+    font-size: 40px;
     text-align: center;
-    font-size: 60px;
-    
+
 }
-.banner{
-    background-image:url(img/niños_felices.jpg);
-    height: 624px;
+
+.banner {
+    background-image: url(img/niños_felices.jpg);
+    height: 25rem;
     width: 100%;
-    background-size:cover;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0px;
 }
+
+article {
+    background-color: #1f8a70;
+}
+
+h2 {
+    text-align: center;
+}
+
+.libro {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.porque {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.propuesta {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /*.banner{
     background-image:url(img/niños_felices.jpg);
@@ -62,4 +93,8 @@ div h1{
     background-size:cover;
     justify-content:space-between;
     display: flex;
+}*/
+
+/*#menu ul li {
+    display: inline-block;  
 }*/
