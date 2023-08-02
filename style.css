@@ -14,6 +14,7 @@
     list-style: none;
     text-decoration: none;
     font-family: Belanosima, sans-serif;
+    
 }
 
 
@@ -68,11 +69,18 @@ h2 {
     color: #eff5f5;
     text-align: center;
     background-color: #181823;
+    border: solid #eff5f5;
+    border-radius: ;
 }
 
-.libro,.porque,.propuesta {
-    padding-top: 10px;
-    width: 100%;
+main .img-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: solid #eff5f5;
+    border-radius: 5%;
+    width: 300px;
     height: 100%;
 }
 
@@ -84,6 +92,48 @@ h4,p{
     width: 70px;
     border-radius: 50%;
 }
+
+.noticias{
+    padding: 5% 5%;
+}
+.contenedor-noticias{
+    border: solid #eff5f5;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+#noticias{
+    padding: 0;
+}
+
+footer{
+    background-color: #00425a;
+    text-align: center;
+}
+
+.iconosRs{
+    width: 50px;
+    padding: 7%;
+}
+
+footer h4{
+    font-size: 2rem;
+}
+
+.contacto-footer{
+    text-align: justify;
+    color: #181823;
+    font-size: 20px;
+}
+
+.contacto-footer:hover {
+    background-color: #fc7300;
+    border-radius: 20%;
+}
+    
+
+
+
 /*.banner{
     background-image:url(img/niños_felices.jpg);
     height: auto;
