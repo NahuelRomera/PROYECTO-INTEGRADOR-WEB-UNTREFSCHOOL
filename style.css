@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,200;0,500;0,800;1,200;1,500;1,800&display=swap");
 
 :root {
-    color--1: #fc7300;
-    color--2: #1f8a70;
-    color--3: #00425a;
-    color--4: #181823;
-    color--5: #eff5f5;
+    --color-1: #fc7300;
+    --color-2: #1f8a70;
+    --color-3: #00425a;
+    --color-4: #181823;
+    --color-5: #eff5f5;
 }
 
 * {
@@ -69,8 +69,7 @@ h2 {
     color: #eff5f5;
     text-align: center;
     background-color: #181823;
-    border: solid #eff5f5;
-    border-radius: ;
+    /*border: solid #eff5f5;*/
 }
 
 main .img-main{
@@ -86,6 +85,9 @@ main .img-main{
 
 h4,p{
     margin: 0 20px;
+}
+.p-main{
+    padding: 5%;
 }
 
 .logo{
@@ -131,8 +133,6 @@ footer h4{
     border-radius: 20%;
 }
     
-
-
 
 /*.banner{
     background-image:url(img/niños_felices.jpg);
