@@ -189,7 +189,8 @@ footer h4{
   button:hover {
     background-color: #fc7300;
   }
-  
+
+  /*media queri formulario*/
   
   @media screen and (max-width: 480px) {
     .container {
