@@ -132,7 +132,84 @@ footer h4{
     background-color: #fc7300;
     border-radius: 20%;
 }
+
+.body-form {
+    background-color: #1f8a70;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #00425a;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #00425a;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1f8a70;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fc7300;
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      max-width: 100%;
+      margin: 20px auto;
+      padding: 10px;
+    }
     
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 5px;
+    }
+    
+    button {
+      padding: 8px;
+    }
+  }
+
+
 
 /*.banner{
     background-image:url(img/niños_felices.jpg);

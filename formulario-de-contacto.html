@@ -7,35 +7,32 @@
   <meta name="description" content="trabajo practico integrador">
   <meta name="author" content="Nahuel Romera">
   <title>UNTREFSCHOOL</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body class="body-form">
-  <form action="https://formsubmit.co/nahuelr93@gmail.com" method="post" enctype="text/plain">
-
-    <label for="nombre">Nombre y Apellido</label>
-    <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre completo." />
-
-    <label for="correo">Correo</label>
-    <input type="email" id="correo" name="correo" required placeholder="Escribe tu correo electrónico." />
-
-    <label for="asunto">Asunto</label>
-    <input type="text" id="asunto" name="asunto" required maxlength="50"
-      placeholder="Escribe el asunto (Max. 50 caracteres)" />
-
-    <label for="mensaje">Mensaje</label>
-    <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje (Max. 1000 caracteres)"
-      maxlength="1000"></textarea>
-
-    <input type="submit" value="ENVIAR" />
-  </form>
+  <div class="container">
+    <h2 class="h2-form" >Formulario de Contacto</h2>
+    <form action="https://formsubmit.co/nahuelr93@gmail.com" method="post">
+      <div class="form-group">
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" placeholder="nombre completo" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="correo">Correo:</label>
+        <input type="email" placeholder="ejemplo@ejemplo.com" name="correo" required>
+      </div>
+      <div class="form-group">
+        <label for="asunto">Asunto:</label>
+        <input type="text" placeholder="max 50 caracteres" name="asunto" required>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" placeholder="max 500 caracteres" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
   </div>
-  <br />
-  </main>
-  <footer>
-    <div class="footer-form">
-      <p>¡GRACIAS POR CONTACTARNOS!</p>
-    </div>
-  </footer>
 </body>
 
 </html>
